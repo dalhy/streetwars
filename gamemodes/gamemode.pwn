@@ -209,7 +209,7 @@ main()
 
 public OnGameModeInit()
 {
-	SetGameModeText("GW - 1.0");
+    SetGameModeText("GW - 1.0");
     SendRconCommand("mapname " NOME_MAPA);
 
     DisableInteriorEnterExits();
@@ -234,6 +234,7 @@ public OnGameModeInit()
     Area_Pista = CreateDynamicRectangle(1861.519897, -1451.005249, 1976.101440, -1351.822509);
     Area_Casarao = CreateDynamicRectangle(1210.579101, -2080.446044, 1103.595825, -1993.308715);
     Area_Alojamento = CreateDynamicRectangle(807.504882, -1310.112915, 933.617980, -1159.493896);
+    SendRconCommand("exit");
     Area_Construcao = CreateDynamicRectangle(-2016.497314, 118.468414, -2136.991943, 309.875579);
     Area_Madereira = CreateDynamicRectangle(-423.198974, -37.516921, -576.721313, -194.507461);
 
