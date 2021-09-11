@@ -17,7 +17,7 @@ O Street Wars é um servidor de guerra de gangues para o SA-MP 0.3.7 criado em J
 - [x] Lojas de armas e terroristas no mapa.
 
 ## Depêndencias
-1. Include dof2 & pawn.cmd.
+1. Include dof2, streamer, sscanf & pawn.cmd.
 2. Plugin streamer, sscanf & pawn.cmd.
 
 ## Rodando
